@@ -1,16 +1,16 @@
 Summary:	Small utility to dump info about DRM devices
 Name:		drm_info
-Version:	2.7.0
+Version:	2.8.0
 Release:	1
 License:	MIT
 Group:		Applications/System
 Source0:	https://gitlab.freedesktop.org/emersion/drm_info/-/releases/v%{version}/downloads/%{name}-%{version}.tar.gz
-# Source0-md5:	8d459631b0792791575ea3233ab8ddea
+# Source0-md5:	bb4a48802ac8d2f7f2ed13bcc6dc8dab
 URL:		https://gitlab.freedesktop.org/emersion/drm_info
 BuildRequires:	gcc >= 6:4.6
 BuildRequires:	json-c-devel >= 0.14
-BuildRequires:	libdrm-devel >= 2.4.122
-BuildRequires:	meson >= 0.49.0
+BuildRequires:	libdrm-devel >= 2.4.125
+BuildRequires:	meson >= 0.56.0
 BuildRequires:	ninja
 BuildRequires:	pciutils-devel
 BuildRequires:	pkgconfig
@@ -18,7 +18,7 @@ BuildRequires:	python3
 BuildRequires:	rpmbuild(macros) >= 2.042
 BuildRequires:	scdoc
 Requires:	json-c >= 0.14
-Requires:	libdrm >= 2.4.122
+Requires:	libdrm >= 2.4.104
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
