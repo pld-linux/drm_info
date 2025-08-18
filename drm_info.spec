@@ -15,7 +15,7 @@ BuildRequires:	ninja
 BuildRequires:	pciutils-devel
 BuildRequires:	pkgconfig
 BuildRequires:	python3
-BuildRequires:	rpmbuild(macros) >= 1.736
+BuildRequires:	rpmbuild(macros) >= 2.042
 BuildRequires:	scdoc
 Requires:	json-c >= 0.14
 Requires:	libdrm >= 2.4.122
